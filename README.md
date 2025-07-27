@@ -16,103 +16,31 @@
 
 ---
 
-## 📸 Showcase
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin: 20px 0;">
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/1.jpeg')">
-    <img src="assets/1.jpeg" alt="Scanit Screenshot 1" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/2.jpeg')">
-    <img src="assets/2.jpeg" alt="Scanit Screenshot 2" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/3.jpeg')">
-    <img src="assets/3.jpeg" alt="Scanit Screenshot 3" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/4.jpeg')">
-    <img src="assets/4.jpeg" alt="Scanit Screenshot 4" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/5.jpeg')">
-    <img src="assets/5.jpeg" alt="Scanit Screenshot 5" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/6.jpeg')">
-    <img src="assets/6.jpeg" alt="Scanit Screenshot 6" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/7.jpeg')">
-    <img src="assets/7.jpeg" alt="Scanit Screenshot 7" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/8.jpeg')">
-    <img src="assets/8.jpeg" alt="Scanit Screenshot 8" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/9.jpeg')">
-    <img src="assets/9.jpeg" alt="Scanit Screenshot 9" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/10.jpeg')">
-    <img src="assets/10.jpeg" alt="Scanit Screenshot 10" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/11.jpeg')">
-    <img src="assets/11.jpeg" alt="Scanit Screenshot 11" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/12.jpeg')">
-    <img src="assets/12.jpeg" alt="Scanit Screenshot 12" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/13.png')">
-    <img src="assets/13.png" alt="Scanit Screenshot 13" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/14.png')">
-    <img src="assets/14.png" alt="Scanit Screenshot 14" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/15.png')">
-    <img src="assets/15.png" alt="Scanit Screenshot 15" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-  <div style="position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer;" onclick="openModal('assets/16.png')">
-    <img src="assets/16.png" alt="Scanit Screenshot 16" style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </div>
-</div>
-
-<!-- Modal for enlarged images -->
-<div id="imageModal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.9);" onclick="closeModal()">
-  <span style="position: absolute; top: 15px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; cursor: pointer;">&times;</span>
-  <img id="modalImage" style="margin: auto; display: block; max-width: 90%; max-height: 90%; margin-top: 5%;">
-</div>
-
-<script>
-function openModal(imageSrc) {
-  document.getElementById('modalImage').src = imageSrc;
-  document.getElementById('imageModal').style.display = 'block';
-}
-
-function closeModal() {
-  document.getElementById('imageModal').style.display = 'none';
-}
-
-// Close modal when clicking outside the image
-document.getElementById('imageModal').addEventListener('click', function(e) {
-  if (e.target === this) {
-    closeModal();
-  }
-});
-
-// Close modal with Escape key
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') {
-    closeModal();
-  }
-});
-</script>
-
-*Click on any image to view it in full size. Press ESC or click outside to close.*
-
----
-
 ## 📱 Tech Stack
 
 ### Frontend
-- **Flutter** for cross-platform UI
+- **Flutter & Riverpod** for cross-platform UI
 - **Swift** for native iOS integrations (camera, WebSocket, depth data access)
 
 ### Backend
 - **Python WebSocket Server** to handle image and depth data
 - Custom processing pipeline (not open sourced)
+
+---
+
+## 📸 Showcase
+
+### App Screenshots
+![Scanit Screenshot 1](assets/1.jpeg) ![Scanit Screenshot 2](assets/2.jpeg) ![Scanit Screenshot 3](assets/3.jpeg) ![Scanit Screenshot 4](assets/4.jpeg)
+
+![Scanit Screenshot 5](assets/5.jpeg) ![Scanit Screenshot 6](assets/6.jpeg) ![Scanit Screenshot 7](assets/7.jpeg) ![Scanit Screenshot 8](assets/8.jpeg)
+
+![Scanit Screenshot 9](assets/9.jpeg) ![Scanit Screenshot 10](assets/10.jpeg) ![Scanit Screenshot 11](assets/11.jpeg) ![Scanit Screenshot 12](assets/12.jpeg)
+
+### Exported 3D Model
+![Scanit Result 4](assets/16.png)
+
+*Click on any image to view it in full size.*
 
 ---
 
